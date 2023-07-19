@@ -1,13 +1,175 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  color: white;
+  font-family: Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+  position: relative;
+  height: 750px;
+  width: 380px;
+  border-radius: 40px;
+  background-color: rgb(38, 38, 38);
+  padding: 20px;
+}
+
+svg {
+  fill: white;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+h1,
+h2,
+p {
+  margin: 4px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.sub-text {
+  color: rgb(114, 114, 114);
+}
+
+.sub-text span {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(114, 114, 114);
+}
+
+header .info-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .img-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+header .img-container img {
+  height: 110%;
+}
+
+header .threads-info {
+  background-color: rgb(59, 59, 59);
+  color: rgb(114, 114, 114);
+  font-size: 13px;
+  padding: 3px 6px;
+  border-radius: 20px;
+}
+
+button.primary {
+  border: rgb(114, 114, 114) solid 1px;
+  background-color: transparent;
+  padding: 7px;
+  margin: 15px 0;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
+
+.button-container button {
+  border: none;
+  background-color: transparent;
+  padding: 7px;
+  color: white;
+  font-weight: bold;
+  width: 50%;
+  border-bottom: rgb(114, 114, 114) solid 1px;
+}
+
+.button-container button.current {
+  border-bottom: white solid 2px;
+}
+
+.feed-card {
+  border-bottom: rgb(114, 114, 114) solid 1px;
+  padding: 10px 0;
+}
+
+.feed-card .icons svg {
+  height: 20px;
+  padding: 0 5px;
+}
+
+.feed-card .text-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feed-card .img-container {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.feed-card .img-container img {
+  height: 110%;
+}
+
+.feed {
+  height: 410px;
+  overflow-y: scroll;
+}
+
+input {
+  background-color: transparent;
+  border: solid 1px rgb(114, 114, 114);
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+.popup {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 650px;
+  width: 380px;
+  border-radius: 40px;
+  background-color: rgb(38, 38, 38);
+  padding: 20px;
+  /* overflow-y: scroll; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0 -12px 30px,
+    rgba(0, 0, 0, 0.12) 0 4px 6px, rgba(0, 0, 0, 0.17) 0 12px 13px,
+    rgba(0, 0, 0, 0.09) 0 -3px 5px;
+}
+
+.popup p {
+  cursor: pointer;
+}
+
+.write-icon {
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 170px;
+  cursor: pointer;
 }

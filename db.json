@@ -1,0 +1,148 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user_uuid": "b8b33162-cc19-4b00-bb8e-f24e5b793e4e",
+      "username": "diego garea",
+      "handle": "diego",
+      "bio": "nothing at all",
+      "link": "https://www.google.com",
+      "img": "https://i.imgur.com/mnb5Agr.jpeg",
+      "instagram_url": "https://www.instagram.com/diego_garea/",
+      "followers": [
+        {
+          "user_uuid": "2c923cc3-dcc3-40bd-91a4-6a7e621b2924"
+        },
+        {
+          "user_uuid": "6518527b-a4bd-4133-bde9-f8dc86b32917"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_uuid": "2c923cc3-dcc3-40bd-91a4-6a7e621b2924",
+      "username": "Rodrigo Yanez",
+      "handle": "Rodrigo",
+      "bio": "RYF",
+      "link": "www.google.com",
+      "img": "https://i.imgur.com/3mvAR9E.jpg",
+      "instagram_url": "https://www.instagram.com",
+      "followers": [
+        {
+          "user_uuid": "b8b33162-cc19-4b00-bb8e-f24e5b793e4e"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "user_uuid": "6518527b-a4bd-4133-bde9-f8dc86b32917",
+      "username": "Pablo Garea",
+      "handle": "Zelt",
+      "bio": "Pablo eat Pizza",
+      "link": "www.google.com",
+      "img": "https://i.imgur.com/3mvAR9E.jpg",
+      "instagram_url": "https://www.instagram.com/pablogarea/",
+      "followers": [
+        {
+          "user_uuid": "b8b33162-cc19-4b00-bb8e-f24e5b793e4e"
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": 1,
+      "timestamp": "Mon Jul 17 2023 16:38:27 GMT-0600 (GMT-06:00)",
+      "thread_from": "b8b33162-cc19-4b00-bb8e-f24e5b793e4e",
+      "thead_to": null,
+      "reply_to": null,
+      "text": "Hello",
+      "likes": [
+        {
+          "user_uuid": "2c923cc3-dcc3-40bd-91a4-6a7e621b2924"
+        },
+        {
+          "user_uuid": "6518527b-a4bd-4133-bde9-f8dc86b32917"
+        },
+        {
+          "user_uuid": "b8b33162-cc19-4b00-bb8e-f24e5b793e4e"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "timestamp": "Mon Jul 17 2023 17:58:56 GMT-0600 (GMT-06:00)",
+      "thread_from": "b8b33162-cc19-4b00-bb8e-f24e5b793e4e",
+      "thead_to": null,
+      "reply_to": null,
+      "text": "My third hello!",
+      "likes": [
+        {
+          "user_uuid": "b8b33162-cc19-4b00-bb8e-f24e5b793e4e"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "timestamp": "Mon Jul 17 2023 18:28:35 GMT-0600 (GMT-06:00)",
+      "thread_from": "2c923cc3-dcc3-40bd-91a4-6a7e621b2924",
+      "thead_to": null,
+      "reply_to": null,
+      "text": "Que pedo el Juan...",
+      "likes": []
+    },
+    {
+      "id": 4,
+      "timestamp": "Mon Jul 17 2023 19:33:03 GMT-0600 (GMT-06:00)",
+      "thread_from": "b8b33162-cc19-4b00-bb8e-f24e5b793e4e",
+      "thead_to": "2c923cc3-dcc3-40bd-91a4-6a7e621b2924",
+      "reply_to": 3,
+      "text": "Juan aqui no esta wey...",
+      "likes": [
+        {
+          "user_uuid": "b8b33162-cc19-4b00-bb8e-f24e5b793e4e"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "timestamp": "Mon Jul 17 2023 20:33:03 GMT-0600 (GMT-06:00)",
+      "thread_from": "2c923cc3-dcc3-40bd-91a4-6a7e621b2924",
+      "thead_to": "b8b33162-cc19-4b00-bb8e-f24e5b793e4e",
+      "reply_to": 1,
+      "text": "Hola",
+      "likes": []
+    },
+    {
+      "timestamp": "2023-07-19T01:25:00.173Z",
+      "thread_from": "b8b33162-cc19-4b00-bb8e-f24e5b793e4e",
+      "thead_to": "b8b33162-cc19-4b00-bb8e-f24e5b793e4e",
+      "reply_to": null,
+      "text": "Hola",
+      "likes": [
+        {
+          "user_uuid": "b8b33162-cc19-4b00-bb8e-f24e5b793e4e"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "timestamp": "2023-07-19T02:18:18.681Z",
+      "thread_from": "b8b33162-cc19-4b00-bb8e-f24e5b793e4e",
+      "thead_to": "b8b33162-cc19-4b00-bb8e-f24e5b793e4e",
+      "reply_to": 2,
+      "text": "hola",
+      "likes": [],
+      "id": 7
+    },
+    {
+      "timestamp": "2023-07-19T02:18:31.807Z",
+      "thread_from": "b8b33162-cc19-4b00-bb8e-f24e5b793e4e",
+      "thead_to": "b8b33162-cc19-4b00-bb8e-f24e5b793e4e",
+      "reply_to": 2,
+      "text": "hooooola",
+      "likes": [],
+      "id": 8
+    }
+  ]
+}
