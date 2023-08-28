@@ -1,5 +1,7 @@
 # React Threads Clone
 
+React + CSS + HTML with own db.json 
+
 ![pngwing com](https://github.com/DiegoGarea/react-threads-clone/assets/124759506/79925160-0783-4535-9434-ad875b933d61)
 
 <hr/>
